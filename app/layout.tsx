@@ -48,7 +48,11 @@ export const metadata: Metadata = {
       "I design and build production-ready software systems, APIs, automation tools, and interactive web applications.",
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/favicon.ico" },
+  icons: {
+    icon: "/DeepSun.ico",
+    shortcut: "/DeepSun.ico",
+    apple: "/DeepSun.ico",
+  },
 };
 
 export default function RootLayout({
