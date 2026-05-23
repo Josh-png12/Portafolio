@@ -416,3 +416,30 @@ export const stats: Stats = {
   yearsExperience: 3,
   technologies: 20,
 };
+
+export const personalInfo = {
+  title: "Full Stack Software Engineer",
+  subtitle: "Systems & Automation Developer",
+  availability: "Available for opportunities",
+  location: "Colombia",
+  experience: "3+ años",
+  social: {
+    email: "joshuanavarro933@gmail.com",
+    github: "https://github.com/joshuanavarro",
+    whatsapp: "+57 000 000 0000",
+    whatsappUrl: "https://wa.me/57000000000",
+  },
+};
+
+export const aboutParagraphs: string[] = [
+  "Soy un Ingeniero de Software Full Stack enfocado en construir sistemas reales — desde APIs backend y herramientas de automatización hasta aplicaciones web completas.",
+  "Mi trabajo abarca múltiples dominios: plataformas administrativas usadas en instituciones reales, microservicios backend para arquitecturas escalables, y herramientas de automatización que eliminan trabajo manual.",
+  "Abordo cada proyecto como un problema de ingeniería primero — arquitectura antes que estética, rendimiento antes que presentación.",
+];
+
+export const skills = {
+  core: ["React", "Next.js", "TypeScript", "Node.js", "Python", "REST APIs"],
+  specialties: ["Systems Architecture", "Backend APIs", "Automation Tools", "Web Scraping", "PostgreSQL", "MySQL"],
+  competent: ["Docker", "MongoDB", "JWT", "bcrypt", "Express", "Framer Motion"],
+  tools: ["Git", "GitHub", "Vercel", "VS Code", "Postman", "Linux"],
+};

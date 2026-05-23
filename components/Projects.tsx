@@ -26,24 +26,24 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
         {/* Description */}
         <p className="text-neutral-400 text-sm leading-relaxed mb-6 flex-1">
-          {project.description}
+          {project.description.en}
         </p>
 
-        {/* Metrics */}
+        {/* Features (top 3) */}
         <ul className="space-y-2 mb-6" aria-label="Métricas del proyecto">
-          {project.metrics.map((metric, i) => (
+          {project.features.en.slice(0, 3).map((feature, i) => (
             <li key={i} className="flex items-start gap-2 text-sm">
               <span className="text-blue-500 mt-0.5 flex-shrink-0" aria-hidden="true">
                 ▸
               </span>
-              <span className="text-neutral-300">{metric}</span>
+              <span className="text-neutral-300">{feature}</span>
             </li>
           ))}
         </ul>
 
         {/* Tech stack */}
         <div className="flex flex-wrap gap-1.5 mb-6" aria-label="Tecnologías utilizadas">
-          {project.tech.map((tech) => (
+          {project.stack.map((tech) => (
             <span
               key={tech}
               className="px-2 py-0.5 rounded text-xs font-mono bg-white/[0.04] border border-white/[0.08] text-neutral-400"
@@ -148,7 +148,7 @@ export default function Projects() {
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
           {projects.map((project, index) => (
-            <ProjectCard key={project.id} project={project} index={index} />
+            <ProjectCard key={project.slug} project={project} index={index} />
           ))}
         </div>
       </div>
