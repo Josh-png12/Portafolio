@@ -23,7 +23,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/joshuanavarro"
+              href="https://github.com/Josh-png12"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-600 hover:text-slate-300 transition-colors"
@@ -34,7 +34,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/joshuanavarro"
+              href="https://www.linkedin.com/in/joshua-navarro-rad-06ab18258"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-600 hover:text-slate-300 transition-colors"

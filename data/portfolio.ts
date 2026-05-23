@@ -425,9 +425,9 @@ export const personalInfo = {
   experience: "3+ años",
   social: {
     email: "joshuanavarro933@gmail.com",
-    github: "https://github.com/joshuanavarro",
-    whatsapp: "+57 000 000 0000",
-    whatsappUrl: "https://wa.me/57000000000",
+    github: "https://github.com/Josh-png12",
+    whatsapp: "+57 397 149 647",
+    whatsappUrl: "https://wa.me/57397149647",
   },
 };
 

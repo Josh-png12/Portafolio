@@ -92,7 +92,7 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="https://github.com/joshuanavarro"
+                href="https://github.com/Josh-png12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 glass border border-white/[0.08] hover:border-white/[0.14] text-slate-300 hover:text-white font-semibold rounded-xl transition-all duration-200 text-sm"
