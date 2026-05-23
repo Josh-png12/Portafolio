@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   icons: {
-    icon: "/DeepSun.ico",
-    shortcut: "/DeepSun.ico",
-    apple: "/DeepSun.ico",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
